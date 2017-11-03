@@ -1,0 +1,21 @@
+.sub-navigation-div {
+	border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+	padding:10px 0px;
+	margin-bottom:10px;
+    }
+	.sub-navigation-div ul{
+	 list-style-type:none;
+	 padding:0px;
+	 margin:0px;
+	}
+	.sub-navigation-div ul li{
+      display:inline;
+	  padding-right:23px;
+	}
+	.sub-navigation-div ul li a{
+	 text-decoration:none;
+	 font-size:14px;
+	 font-weight:bold;
+	 color:#fff;
+	}
