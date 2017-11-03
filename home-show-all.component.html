@@ -1,0 +1,21 @@
+<p>LATEST-MOVIE </p>
+<div *ngIf="selected">
+ <iframe width="980" height="500" [src]="url | safe" >
+ </iframe>
+ <div class="video-div">
+   <div class="choice"><button (click)="countLike()">like</button>{{like}}<button (click)="countDislike()" style="margin-left:10px">dislike</button>{{dislike}}</div>
+   <div class="close"><button (click)="close()">close</button></div>
+ </div>
+</div>
+<div class="latest-movie" *ngIf="!selected">
+  <div *ngFor="let video of videos" class="movie-div">
+    <div class="movie-image" (mouseenter)="display(d)" (mouseleave)="notDisplay(d)" (click)="playVideo(video)"><a href="#"><img [src]="video.url"></a> <div class="play" #d> <div class="name"> {{video.name}}</div></div></div>
+  </div>
+</div>
+<p style="margin:20px 0px">HINDI-MOVIE </p>
+<div class="latest-movie">
+  <div *ngFor="let video of videos" class="movie-div">
+    <div class="movie-image" (mouseenter)="display(d)" (mouseleave)="notDisplay(d)"><a href="#"><img [src]="video.url"></a> <div class="play" #d> <div class="name"> {{video.name}}</div></div></div>
+  </div>
+</div>
+

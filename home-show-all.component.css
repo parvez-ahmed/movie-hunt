@@ -1,0 +1,89 @@
+.latest-movie{
+	display: block;
+	width: 990px;
+	height: 600px;
+	overflow-y: scroll;
+	border-bottom: 1px dashed #666;
+}
+
+ p{
+	color: gold;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	clear: float;
+	}
+
+    .movie-div {
+	 width:152px;
+	 float:left;
+	 margin-right:11px;
+	 margin-bottom:15px;
+	 margin-top:0px;
+	}
+   .movie-image {
+	width:152px;
+	height:214px;
+	position:relative;
+   }
+   .movie-image a{
+    z-index:2;
+	width:152px;
+	height:214px;
+   }
+   .movie-image a img{
+	   width: 152px;
+	   height: 214px;
+   }
+   .play {
+	position:absolute;
+	top:0;
+	left:0;
+	width:152px;
+	height:214px;
+	background:url('/image-hover.png');
+	display:none;
+	z-index:5;
+	cursor:pointer;
+	
+ }
+ 
+ .name {
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	padding-top:160px;
+	display:block; 
+	}
+::-webkit-scrollbar{
+	background-color: gray;
+	width: 0px;
+}
+.video-div{
+	margin: 10px 0px;
+	overflow: hidden;
+}
+.video-div .choice{
+	float: left;
+}
+.video-div .close{
+	float: right;
+}
+.video-div button{
+	padding: 10px 20px;
+	border: none;
+	background-color: gold;
+	color:white;
+	margin-right: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.video-div .close button{
+	padding: 10px 20px;
+	margin: 0px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
