@@ -1,0 +1,39 @@
+
+	 .container{
+	  width:980px;
+	  height:80%;
+	  margin:0 auto;
+	 }
+	 .header{
+	  border-bottom:1px dotted black;
+	  overflow:hidden;
+	 }
+	 .image-div{
+	  width:24%;
+	  height:45px;
+	  margin-top:40px;
+	  margin-bottom:30px;
+	  float:left;
+	 }
+	 .image-div a img{
+	  width:100%;
+	  height:100%;
+	  
+	 }
+	 .navigation-div{
+	   float:right;
+	   margin-top:45px;
+	 }
+	 .navigation-div ul {
+	  list-style:none;
+     }
+	 .navigation-div ul li {
+	  float:left;
+	  padding-left:29px;
+    }
+	.navigation-div ul li a {
+	 font-size:14px;
+	 font-weight:bold;
+	 color:#fff;
+	 text-decoration:none;
+   }
